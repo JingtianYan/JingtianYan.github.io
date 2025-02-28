@@ -1,6 +1,6 @@
 <!doctype html>
 <!-- This site was created with Hugo Blox. https://hugoblox.com -->
-<!-- Last Published: February 20, 2025 --><html lang="en-us" dir="ltr"
+<!-- Last Published: February 28, 2025 --><html lang="en-us" dir="ltr"
       data-wc-theme-default="system">
   
 <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
@@ -41,7 +41,7 @@
   
     
   
-  <meta name="description" content="Multi-Agent Motion Planning (MAMP) seeks collision-free, dynamically feasible trajectories for multiple agents while minimizing travel time. Our proposed PSB method fully considers these constraints and generates smooth speed profiles for better execution." />
+  <meta name="description" content="Multi-Agent Motion Planning (MAMP) finds various applications in fields such as traffic management, airport operations, and warehouse automation. In many of these environments, differential drive robots are commonly used. These robots have a kinodynamic model that allows only in-place rotation and movement along their current orientation, subject to speed and acceleration limits. However, existing Multi-Agent Path Finding (MAPF)-based methods often use simplified models for robot kinodynamics, which limits their practicality and realism. In this paper, we introduce a three-level framework called MASS to address these challenges. MASS combines MAPF-based methods with our proposed stationary state search planner to generate high-quality kinodynamically-feasible plans. We further extend MASS using an adaptive window mechanism to address the lifelong MAMP problem. Empirically, we tested our methods on the single-shot grid map domain and the lifelong warehouse domain. Our method shows up to 400% improvements in terms of throughput compared to existing methods." />
 
   
   <link rel="alternate" hreflang="en-us" href="http://localhost:1313/publication/aaai25-mass/" />
@@ -188,8 +188,8 @@
   <meta property="og:site_name" content="Jingtian Yan&#39;s Webpage" />
   <meta property="og:url" content="http://localhost:1313/publication/aaai25-mass/" />
   <meta property="og:title" content="Multi-agent Motion Planning for Differential Drive Robots Through Stationary State Search | Jingtian Yan&#39;s Webpage" />
-  <meta property="og:description" content="Multi-Agent Motion Planning (MAMP) seeks collision-free, dynamically feasible trajectories for multiple agents while minimizing travel time. Our proposed PSB method fully considers these constraints and generates smooth speed profiles for better execution." /><meta property="og:image" content="http://localhost:1313/publication/aaai25-mass/featured.jpg" />
-    <meta property="twitter:image" content="http://localhost:1313/publication/aaai25-mass/featured.jpg" /><meta property="og:locale" content="en-us" />
+  <meta property="og:description" content="Multi-Agent Motion Planning (MAMP) finds various applications in fields such as traffic management, airport operations, and warehouse automation. In many of these environments, differential drive robots are commonly used. These robots have a kinodynamic model that allows only in-place rotation and movement along their current orientation, subject to speed and acceleration limits. However, existing Multi-Agent Path Finding (MAPF)-based methods often use simplified models for robot kinodynamics, which limits their practicality and realism. In this paper, we introduce a three-level framework called MASS to address these challenges. MASS combines MAPF-based methods with our proposed stationary state search planner to generate high-quality kinodynamically-feasible plans. We further extend MASS using an adaptive window mechanism to address the lifelong MAMP problem. Empirically, we tested our methods on the single-shot grid map domain and the lifelong warehouse domain. Our method shows up to 400% improvements in terms of throughput compared to existing methods." /><meta property="og:image" content="http://localhost:1313/publication/aaai25-mass/featured.png" />
+    <meta property="twitter:image" content="http://localhost:1313/publication/aaai25-mass/featured.png" /><meta property="og:locale" content="en-us" />
   
     
       <meta
@@ -224,7 +224,7 @@
   "headline": "Multi-agent Motion Planning for Differential Drive Robots Through Stationary State Search",
   
   "image": [
-    "http://localhost:1313/publication/aaai25-mass/featured.jpg"
+    "http://localhost:1313/publication/aaai25-mass/featured.png"
   ],
   
   "datePublished": "2025-02-01T00:00:00Z",
@@ -243,7 +243,7 @@
       "url": "http://localhost:1313/media/icon_hu_4a0566708b2bedd.png"
     }
   },
-  "description": "Multi-Agent Motion Planning (MAMP) seeks collision-free, dynamically feasible trajectories for multiple agents while minimizing travel time. Our proposed PSB method fully considers these constraints and generates smooth speed profiles for better execution."
+  "description": "Multi-Agent Motion Planning (MAMP) finds various applications in fields such as traffic management, airport operations, and warehouse automation. In many of these environments, differential drive robots are commonly used. These robots have a kinodynamic model that allows only in-place rotation and movement along their current orientation, subject to speed and acceleration limits. However, existing Multi-Agent Path Finding (MAPF)-based methods often use simplified models for robot kinodynamics, which limits their practicality and realism. In this paper, we introduce a three-level framework called MASS to address these challenges. MASS combines MAPF-based methods with our proposed stationary state search planner to generate high-quality kinodynamically-feasible plans. We further extend MASS using an adaptive window mechanism to address the lifelong MAMP problem. Empirically, we tested our methods on the single-shot grid map domain and the lifelong warehouse domain. Our method shows up to 400% improvements in terms of throughput compared to existing methods."
 }
 </script>
 
@@ -812,6 +812,14 @@
   >Multi-agent Motion Planning for Differential Drive Robots Through Stationary State Search
     </a>
   
+    <ul class="hb-sidebar-mobile-toc"><li>
+              <a
+                href="#"
+                class="hb-docs-link"
+              ></a>
+            </li>
+          </ul>
+  
               
             </li><li class="flex flex-col "><a
     class="hb-sidebar-custom-link
@@ -981,7 +989,22 @@
 
 
 
-  <div class="hb-scrollbar text-sm [hyphens:auto] sticky top-16 overflow-y-auto pr-4 pt-6 max-h-[calc(100vh-var(--navbar-height)-env(safe-area-inset-bottom))] -mr-4 rtl:-ml-4">
+  <div class="hb-scrollbar text-sm [hyphens:auto] sticky top-16 overflow-y-auto pr-4 pt-6 max-h-[calc(100vh-var(--navbar-height)-env(safe-area-inset-bottom))] -mr-4 rtl:-ml-4"><p class="mb-4 font-semibold tracking-tight">On this page</p><ul>
+      <li class="my-2 scroll-my-6 scroll-py-6">
+        <a class="pl-8 rtl:pr-8 inline-block text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 w-full break-words" href="#motivation">Motivation</a>
+      </li>
+      <li class="my-2 scroll-my-6 scroll-py-6">
+        <a class="pl-4 rtl:pr-4 inline-block text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 w-full break-words" href="#mass-mapf-ssipp-sps">MASS (MAPF-SSIPP-SPS)</a>
+      </li>
+      <li class="my-2 scroll-my-6 scroll-py-6">
+        <a class="pl-4 rtl:pr-4 inline-block text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 w-full break-words" href="#stationary-sipp-rotation-expansion">Stationary SIPP: Rotation Expansion</a>
+      </li>
+      <li class="my-2 scroll-my-6 scroll-py-6">
+        <a class="pl-4 rtl:pr-4 inline-block text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 w-full break-words" href="#stationary-sipp-movement-expansion">Stationary SIPP: Movement Expansion</a>
+      </li>
+      <li class="my-2 scroll-my-6 scroll-py-6">
+        <a class="pl-8 rtl:pr-8 inline-block text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 w-full break-words" href="#results">Results</a>
+      </li></ul>
 
   
   
@@ -1132,9 +1155,9 @@
       
       
       
-      <div class="article-header article-container featured-image-wrapper mt-4 mb-16" style="max-width: 720px; max-height: 436px;">
+      <div class="article-header article-container featured-image-wrapper mt-4 mb-16" style="max-width: 720px; max-height: 322px;">
         <div style="position: relative">
-          <img src="/publication/aaai25-mass/featured_hu_150b006d4aa816f9.webp" width="720" height="436" alt="" class="featured-image">
+          <img src="/publication/aaai25-mass/featured_hu_451413f0d00ad092.webp" width="720" height="322" alt="" class="featured-image">
           
         </div>
       </div>
@@ -1146,7 +1169,7 @@
 
         
           <div class="font-bold text-2xl">Abstract</div>
-          <div>Multi-Agent Motion Planning (MAMP) seeks collision-free, dynamically feasible trajectories for multiple agents while minimizing travel time. Our proposed PSB method fully considers these constraints and generates smooth speed profiles for better execution.</div>
+          <div>Multi-Agent Motion Planning (MAMP) finds various applications in fields such as traffic management, airport operations, and warehouse automation. In many of these environments, differential drive robots are commonly used. These robots have a kinodynamic model that allows only in-place rotation and movement along their current orientation, subject to speed and acceleration limits. However, existing Multi-Agent Path Finding (MAPF)-based methods often use simplified models for robot kinodynamics, which limits their practicality and realism. In this paper, we introduce a three-level framework called MASS to address these challenges. MASS combines MAPF-based methods with our proposed stationary state search planner to generate high-quality kinodynamically-feasible plans. We further extend MASS using an adaptive window mechanism to address the lifelong MAMP problem. Empirically, we tested our methods on the single-shot grid map domain and the lifelong warehouse domain. Our method shows up to 400% improvements in terms of throughput compared to existing methods.</div>
         
 
         
@@ -1174,19 +1197,79 @@
       
 
       <div class="prose prose-slate lg:prose-xl dark:prose-invert">
-        <div class="flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900">
+        <!-- 
+
+
+
+
+  
+    
+  
+
+<div class="flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900">
 <span class="pr-3 pt-1 text-primary-600 dark:text-primary-300">
   <svg height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z"/></svg>
 </span>
   <span class="dark:text-neutral-300">Click the <em>Cite</em> button above to demo the feature to enable visitors to import publication metadata into their reference management software.</span>
 </div>
+
+
+
+
+
+
+  
+    
+  
+
 <div class="flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900">
 <span class="pr-3 pt-1 text-primary-600 dark:text-primary-300">
   <svg height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z"/></svg>
 </span>
   <span class="dark:text-neutral-300">Create your slides in Markdown - click the <em>Slides</em> button to check out the example.</span>
 </div>
-<p>Add the publication&rsquo;s <strong>full text</strong> or <strong>supplementary notes</strong> here. You can use rich formatting such as including <a href="https://docs.hugoblox.com/content/writing-markdown-latex/" target="_blank" rel="noopener">code, math, and images</a>.</p>
+
+Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/). -->
+<h4 id="motivation">Motivation</h4>
+<p>How to improve the solution quality of the MAMP in realistic cases?</p>
+<div style="display: flex; justify-content: center; gap: 20px;">
+    <img src="intro.png" style="height: 300px; width: auto;" alt="GIF 1">
+    <img src="intro.gif" style="height: 300px; width: auto;" alt="GIF 2">
+    <!-- <img src="warehouse.gif" style="height: 200px; width: auto;" alt="GIF 3"> -->
+</div>
+<h3 id="mass-mapf-ssipp-sps"><span style="color: purple; font-weight: bold;">MASS (MAPF-SSIPP-SPS)</span></h3>
+<div style="text-align: center;">
+    <img src="method_overview.png" alt="MASS Overview" style="width: 100%;">
+</div>
+<hr>
+<h3 id="stationary-sipp-rotation-expansion"><span style="color: purple; font-weight: bold;">Stationary SIPP: Rotation Expansion</span></h3>
+<div style="display: flex; align-items: center; justify-content: center; gap: 20px;">
+    <div style="flex: 1; text-align: center;">
+        <img src="rotate_expansion.png" alt="Rotation Expansion" style="width: 90%;">
+    </div>
+    <div style="flex: 1;">
+        <ul>
+            <li>If the previous action is move, the next action must be rotation.</li>
+            <li>During node expansion, generate the neighbor nodes by performing all possible rotations.</li>
+        </ul>
+    </div>
+</div>
+<hr>
+<h3 id="stationary-sipp-movement-expansion"><span style="color: purple; font-weight: bold;">Stationary SIPP: Movement Expansion</span></h3>
+<div style="text-align: center;">
+    <img src="interval_search-v5.png" alt="Movement Expansion" style="width: 86%;">
+</div>
+<ul>
+    <li>Find the stationary states in the current direction of the agent.</li>
+    <li>Call the SPS to find a speed profile for a movement action. Generate a neighbor if one exists.</li>
+</ul>
+<h4 id="results">Results</h4>
+<p>Tested on MovingAI standard MAPF benchmark.</p>
+<div style="display: flex; justify-content: center; gap: 20px;">
+    <img src="results.png" style="height: 300px; width: auto;" alt="GIF 1">
+    <!-- <img src="intro.gif" style="height: 300px; width: auto;" alt="GIF 2"> -->
+    <!-- <img src="warehouse.gif" style="height: 200px; width: auto;" alt="GIF 3"> -->
+</div>
 
       </div>
 

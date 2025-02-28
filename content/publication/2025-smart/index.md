@@ -1,5 +1,7 @@
 ---
 title: "Advancing MAPF towards the Real World: A Scalable Multi-Agent Realistic Testbed"
+Note: "Manuscript is currently under review at IJCAI; code and arXiv preprint will be released soon!"
+
 authors:
 - admin
 - Zhifei Li
@@ -9,7 +11,7 @@ authors:
 - Jiaoyang Li
 
 date: "2025-03-01T00:00:00Z"
-doi: "https://doi.org/10.1109/LRA.2024.3363543"
+# doi: "https://doi.org/10.1109/LRA.2024.3363543"
 
 publishDate: "2025-02-01T00:00:00Z"
 
@@ -28,16 +30,18 @@ tags:
 featured: false
 
 links:
-- name: Custom Link
-  url: http://example.org
-url_pdf: http://arxiv.org/pdf/1512.04133v1
-url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
-url_dataset: '#'
-url_poster: '#'
-url_project: ''
-url_slides: ''
-url_source: '#'
-url_video: '#'
+- name: MovingAI MAPF Benchmarks
+  url: https://movingai.com/benchmarks/mapf/index.html
+# url_pdf: http://arxiv.org/pdf/1512.04133v1
+# links:
+# - name: Manuscript is currently under review at IJCAI; code and arXiv preprint will be released soon!
+# url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
+# url_dataset: '#'
+# url_poster: '#'
+# url_project: ''
+# url_slides: ''
+# url_source: '#'
+# url_video: '#'
 # url_pdf: "https://arxiv.org/abs/2412.13359"
 # url_code: "https://github.com/JingtianYan/MASS-AAAI"
 # url_video: ""
@@ -50,7 +54,10 @@ url_video: '#'
 # projects: []
 
 # slides: "example"
+# Manuscript is currently under review at IJCAI; code and arXiv preprint will be released soon!
+
 ---
+**Manuscript is currently under review at IJCAI; code and arXiv preprint will be released soon!**
 
 <!-- {{% callout note %}}
 Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
