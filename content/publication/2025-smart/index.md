@@ -57,7 +57,7 @@ url_code: "https://github.com/JingtianYan/SMART"
 # Manuscript is currently under review at IJCAI; code and arXiv preprint will be released soon!
 
 ---
-**Manuscript is currently under review at IJCAI; code and arXiv preprint will be released soon!**
+**Manuscript is currently under review at IJCAI; arXiv preprint will be released soon!**
 
 <!-- {{% callout note %}}
 Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
