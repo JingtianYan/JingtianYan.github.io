@@ -38,7 +38,7 @@
       <link>http://localhost:1313/publication/2025-smart/</link>
       <pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/publication/2025-smart/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Manuscript is currently under review at IJCAI; code and arXiv preprint will be released soon!&lt;/strong&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;strong&gt;Manuscript is currently under review at IJCAI; arXiv preprint will be released soon!&lt;/strong&gt;&lt;/p&gt;
 &lt;!-- 
 
 
@@ -171,6 +171,14 @@ Add the publication&#39;s **full text** or **supplementary notes** here. You can
     </item>
     
     <item>
+      <title>Papers</title>
+      <link>http://localhost:1313/papers/</link>
+      <pubDate>Sun, 19 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/papers/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Projects</title>
       <link>http://localhost:1313/projects/</link>
       <pubDate>Sun, 19 May 2024 00:00:00 +0000</pubDate>
@@ -283,30 +291,6 @@ Add the publication&#39;s **full text** or **supplementary notes** here. You can
 &lt;p&gt;Copyright 2016-present &lt;a href=&#34;https://georgecushen.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;George Cushen&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Released under the &lt;a href=&#34;https://github.com/HugoBlox/hugo-blox-builder/blob/main/LICENSE.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MIT&lt;/a&gt; license.&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Pandas</title>
-      <link>http://localhost:1313/project/pandas/</link>
-      <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/project/pandas/</guid>
-      <description>&lt;p&gt;Flexible and powerful data analysis / manipulation library for Python, providing labeled data structures.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>PyTorch</title>
-      <link>http://localhost:1313/project/pytorch/</link>
-      <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/project/pytorch/</guid>
-      <description>&lt;p&gt;PyTorch is a Python package that provides tensor computation (like NumPy) with strong GPU acceleration.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>scikit-learn</title>
-      <link>http://localhost:1313/project/scikit/</link>
-      <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/project/scikit/</guid>
-      <description>&lt;p&gt;scikit-learn is a Python module for machine learning built on top of SciPy and is distributed under the 3-Clause BSD license.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -436,7 +420,7 @@ Add the publication&#39;s **full text** or **supplementary notes** here. You can
 
 
 
-&lt;div id=&#34;chart-625139784&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-356291487&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   async function fetchChartJSON() {
     console.debug(&#39;Hugo Blox fetching chart JSON...&#39;)
@@ -454,7 +438,7 @@ Add the publication&#39;s **full text** or **supplementary notes** here. You can
 
       fetchChartJSON().then(chart =&gt; {
         console.debug(&#39;Plotting chart...&#39;)
-        window.Plotly.newPlot(&#39;chart-625139784&#39;, chart.data, chart.layout, {responsive: true});
+        window.Plotly.newPlot(&#39;chart-356291487&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -1086,6 +1070,27 @@ Parallel 4   :         des6, after des4, 1d
   &lt;span class=&#34;dark:text-neutral-300&#34;&gt;Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.&lt;/span&gt;
 &lt;/div&gt;
 &lt;p&gt;Add the publication&amp;rsquo;s &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; here. You can use rich formatting such as including &lt;a href=&#34;https://docs.hugoblox.com/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Robust Execution in Warehouse</title>
+      <link>http://localhost:1313/project/scikit/</link>
+      <pubDate>Tue, 02 May 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/scikit/</guid>
+      <description>&lt;video width=&#34;640&#34; height=&#34;360&#34; controls&gt;
+  &lt;source src=&#34;demo_adg_v2.mp4&#34; type=&#34;video/mp4&#34;&gt;
+  Your browser does not support the video tag.
+&lt;/video&gt;
+&lt;p&gt;Multi-Agent Path Finding and Robust Execution in Warehouse&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Autonomous Exploration Development Environment (Isaac Sim)</title>
+      <link>http://localhost:1313/project/exploration-issac-sim/</link>
+      <pubDate>Wed, 26 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/exploration-issac-sim/</guid>
+      <description>&lt;p&gt;The project is designed for enhancing system development and robot deployment for ground-based autonomous navigation and exploration using the NVIDIA Isaac-sim. It encompasses autonomous navigation modules such as collision avoidance, terrain traversability analysis, waypoint following, and more, along with a suite of visualization tools. This project utilizes the hospital environment and Carter robot from the Isaac example files.&lt;/p&gt;
 </description>
     </item>
     

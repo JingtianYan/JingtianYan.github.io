@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Multi-Agent Path Planning | Jingtian Yan&#39;s Webpage</title>
+    <link>http://localhost:1313/tags/multi-agent-path-planning/</link>
+      <atom:link href="http://localhost:1313/tags/multi-agent-path-planning/index.xml" rel="self" type="application/rss+xml" />
+    <description>Multi-Agent Path Planning</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 02 May 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu_eb1fc553f4702bd9.png</url>
+      <title>Multi-Agent Path Planning</title>
+      <link>http://localhost:1313/tags/multi-agent-path-planning/</link>
+    </image>
+    
+    <item>
+      <title>Robust Execution in Warehouse</title>
+      <link>http://localhost:1313/project/scikit/</link>
+      <pubDate>Tue, 02 May 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/scikit/</guid>
+      <description>&lt;video width=&#34;640&#34; height=&#34;360&#34; controls&gt;
+  &lt;source src=&#34;demo_adg_v2.mp4&#34; type=&#34;video/mp4&#34;&gt;
+  Your browser does not support the video tag.
+&lt;/video&gt;
+&lt;p&gt;Multi-Agent Path Finding and Robust Execution in Warehouse&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

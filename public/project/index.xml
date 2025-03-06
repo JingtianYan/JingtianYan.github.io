@@ -5,7 +5,7 @@
     <link>http://localhost:1313/project/</link>
       <atom:link href="http://localhost:1313/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 26 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 02 May 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>http://localhost:1313/media/icon_hu_eb1fc553f4702bd9.png</url>
       <title>Projects</title>
@@ -13,27 +13,24 @@
     </image>
     
     <item>
-      <title>Pandas</title>
-      <link>http://localhost:1313/project/pandas/</link>
-      <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/project/pandas/</guid>
-      <description>&lt;p&gt;Flexible and powerful data analysis / manipulation library for Python, providing labeled data structures.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>PyTorch</title>
-      <link>http://localhost:1313/project/pytorch/</link>
-      <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/project/pytorch/</guid>
-      <description>&lt;p&gt;PyTorch is a Python package that provides tensor computation (like NumPy) with strong GPU acceleration.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>scikit-learn</title>
+      <title>Robust Execution in Warehouse</title>
       <link>http://localhost:1313/project/scikit/</link>
-      <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 02 May 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/project/scikit/</guid>
-      <description>&lt;p&gt;scikit-learn is a Python module for machine learning built on top of SciPy and is distributed under the 3-Clause BSD license.&lt;/p&gt;</description>
+      <description>&lt;video width=&#34;640&#34; height=&#34;360&#34; controls&gt;
+  &lt;source src=&#34;demo_adg_v2.mp4&#34; type=&#34;video/mp4&#34;&gt;
+  Your browser does not support the video tag.
+&lt;/video&gt;
+&lt;p&gt;Multi-Agent Path Finding and Robust Execution in Warehouse&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Autonomous Exploration Development Environment (Isaac Sim)</title>
+      <link>http://localhost:1313/project/exploration-issac-sim/</link>
+      <pubDate>Wed, 26 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/exploration-issac-sim/</guid>
+      <description>&lt;p&gt;The project is designed for enhancing system development and robot deployment for ground-based autonomous navigation and exploration using the NVIDIA Isaac-sim. It encompasses autonomous navigation modules such as collision avoidance, terrain traversability analysis, waypoint following, and more, along with a suite of visualization tools. This project utilizes the hospital environment and Carter robot from the Isaac example files.&lt;/p&gt;
+</description>
     </item>
     
   </channel>
