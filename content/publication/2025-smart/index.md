@@ -43,7 +43,7 @@ url_pdf: https://arxiv.org/abs/2503.04798
 # url_source: '#'
 # url_video: '#'
 # url_pdf: "https://arxiv.org/abs/2412.13359"
-url_code: "https://github.com/JingtianYan/SMART"
+url_code: "https://github.com/JingtianYan/SMART/"
 # url_video: ""
 
 # image:
