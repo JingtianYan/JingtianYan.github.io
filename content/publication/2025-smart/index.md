@@ -32,7 +32,7 @@ featured: false
 links:
 - name: MovingAI MAPF Benchmarks
   url: https://movingai.com/benchmarks/mapf/index.html
-# url_pdf: http://arxiv.org/pdf/1512.04133v1
+url_pdf: https://arxiv.org/abs/2503.04798
 # links:
 # - name: Manuscript is currently under review at IJCAI; code and arXiv preprint will be released soon!
 # url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
@@ -57,7 +57,7 @@ url_code: "https://github.com/JingtianYan/SMART"
 # Manuscript is currently under review at IJCAI; code and arXiv preprint will be released soon!
 
 ---
-**Manuscript is currently under review at IJCAI; arXiv preprint will be released soon!**
+<!-- **Manuscript is currently under review at IJCAI; arXiv preprint will be released soon!** -->
 
 <!-- {{% callout note %}}
 Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.

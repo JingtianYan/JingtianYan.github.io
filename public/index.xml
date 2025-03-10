@@ -38,7 +38,7 @@
       <link>http://localhost:1313/publication/2025-smart/</link>
       <pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/publication/2025-smart/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Manuscript is currently under review at IJCAI; arXiv preprint will be released soon!&lt;/strong&gt;&lt;/p&gt;
+      <description>&lt;!-- **Manuscript is currently under review at IJCAI; arXiv preprint will be released soon!** --&gt;
 &lt;!-- 
 
 
@@ -420,7 +420,7 @@ Add the publication&#39;s **full text** or **supplementary notes** here. You can
 
 
 
-&lt;div id=&#34;chart-356291487&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-792451386&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   async function fetchChartJSON() {
     console.debug(&#39;Hugo Blox fetching chart JSON...&#39;)
@@ -438,7 +438,7 @@ Add the publication&#39;s **full text** or **supplementary notes** here. You can
 
       fetchChartJSON().then(chart =&gt; {
         console.debug(&#39;Plotting chart...&#39;)
-        window.Plotly.newPlot(&#39;chart-356291487&#39;, chart.data, chart.layout, {responsive: true});
+        window.Plotly.newPlot(&#39;chart-792451386&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
