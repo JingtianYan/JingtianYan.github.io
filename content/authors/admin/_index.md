@@ -183,4 +183,4 @@ education:
 
 ## About Me
 
-I am a Ph.D. student in the Robotics Institute at <a href="https://www.cmu.edu/">Carnegie Mellon University</a>, supervised by Prof. <a href="https://jiaoyangli.me/">Jiaoyang Li</a> and Prof. <a href="https://www.ri.cmu.edu/ri-faculty/stephen-smith/">Stephen Smith</a>. My research interests include multi-robot coordination, autonomous exploration, and multi-agent motion planning.
+I am a Ph.D. student in the School of Computer Science, Robotics Institute at <a href="https://www.cmu.edu/">Carnegie Mellon University</a>, supervised by Prof. <a href="https://jiaoyangli.me/">Jiaoyang Li</a> and Prof. <a href="https://www.ri.cmu.edu/ri-faculty/stephen-smith/">Stephen Smith</a>. My research interests include multi-robot coordination, autonomous exploration, and multi-agent motion planning.
