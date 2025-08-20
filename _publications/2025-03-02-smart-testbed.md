@@ -21,7 +21,7 @@ bibtex: |
   }
 codeurl: 'https://github.com/smart-mapf/smart.git'
 videourl: 'https://youtu.be/TX-oGSgM8VQ'
-citation: 'Jingtian Yan, Zhifei Li, William Kang, Yulun Zhang, Stephen Smith, and Jiaoyang Li. <i>Under Review</i>. 2025.'
+citation: 'Jingtian Yan, Zhifei Li, William Kang, Kevin Zheng, Yulun Zhang, Zhe Chen, Yue Zhang, Daniel Harabor, Stephen F. Smith, and Jiaoyang Li. <i>Under Review</i>. 2025.'
 header:
   teaser: /images/smart_testbed_preview.png
 ---
