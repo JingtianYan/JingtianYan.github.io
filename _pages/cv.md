@@ -11,35 +11,40 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* **Ph.D. in Robotics**, Carnegie Mellon University, 2024-Present
+  * Advisors: Prof. Jiaoyang Li and Prof. Stephen Smith
+  * Focus: Multi-robot coordination, autonomous exploration, and multi-agent motion planning
+* **M.S. in Electrical and Computer Engineering**, Carnegie Mellon University, 2021-2023
+  * Focus: Multi-agent systems and autonomous exploration
+* **B.S. in Automation**, Zhejiang University, 2017-2021
+  * Focus: Control systems and robotics
 
-Work experience
+Research Experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* **2024-Present: Ph.D. Research Assistant**
+  * Carnegie Mellon University, Robotics Institute
+  * Research on multi-agent motion planning and coordination
+  * Supervisors: Prof. Jiaoyang Li and Prof. Stephen Smith
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* **2021-2023: Graduate Research Assistant**
+  * Carnegie Mellon University, Robotics Institute
+  * Research on cooperative multi-agent exploration with unknown initial positions
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
+Research Interests
+======
+* Multi-Agent Motion Planning
+* Multi-Robot Coordination  
+* Autonomous Exploration
+* Path Planning and Navigation
+* Robotics and AI
+
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* **Programming Languages**: Python, C++, MATLAB, ROS
+* **Robotics Frameworks**: ROS, Gazebo, NVIDIA Isaac Sim
+* **Machine Learning**: PyTorch, TensorFlow
+* **Optimization**: Motion planning, trajectory optimization
+* **Research**: Algorithm design, experimental validation, technical writing
 
 Publications
 ======
@@ -61,4 +66,4 @@ Teaching
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* Reviewer for AAAI, IROS, ICRA, and RA-L.
