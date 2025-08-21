@@ -28,6 +28,8 @@ header:
 
 **Note:** Manuscript is currently under review.
 
+### [Use Our Online Interface](https://smart-mapf.github.io/demo/)
+
 ### Demo Video
 
 <div style="position: relative; width: 100%; max-width: 800px; margin: 20px auto;">
