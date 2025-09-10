@@ -40,7 +40,15 @@ header:
 
 ## Overview
 
-This work presents SMART, a comprehensive testbed designed to bridge the gap between Multi-Agent Path Finding (MAPF) research and real-world applications. While MAPF algorithms have shown significant theoretical progress, their practical deployment faces numerous challenges that are not adequately addressed in current benchmarks.
+This work presents SMART, a comprehensive testbed designed to bridge the gap between Multi-Agent Path Finding (MAPF) research and real-world applications. State-of-the-art MAPF algorithms can plan paths for hundreds of robots within seconds.
+However, these algorithms make several simplifying assumptions.
+First, they rely on simplified robot models that ignore kinodynamic constraints while planning the robots' paths.
+Second, they assume that robots can execute these paths perfectly, without accounting for uncertainties introduced by real-world factors.
+
+SMART fills this gap with several advantages:
+- SMART uses physics-engine-based simulators to create realistic simulation environments, accounting for complex real-world factors such as robot kinodynamics and execution uncertainties.
+- SMART uses an execution monitor framework based on the Action Dependency Graph, facilitating seamless integration with various MAPF algorithms and robot models.
+- SMART scales to thousands of robots.
 
 <div style="text-align: center; margin: 20px 0;">
   <video controls style="width: 80%; max-width: 800px;">
