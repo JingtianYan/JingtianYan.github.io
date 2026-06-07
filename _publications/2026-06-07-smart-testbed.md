@@ -1,32 +1,38 @@
 ---
-title: "Advancing MAPF towards the Real World: A Scalable Multi-Agent Realistic Testbed"
+title: "Advancing MAPF Toward the Real World: A Scalable Multi-Agent Realistic Testbed (SMART)"
 collection: publications
-category: "2025"
-permalink: /publication/2025-03-02-smart-testbed
-authors: "Jingtian Yan, Zhifei Li, William Kang, Yulun Zhang, Stephen Smith, Jiaoyang Li"
+category: "2026"
+permalink: /publication/2026-06-07-smart-testbed
+redirect_from:
+  - /publication/2025-03-02-smart-testbed
+authors: "Jingtian Yan, Zhifei Li, William Kang, Kevin Zheng, Yulun Zhang, Zhe Chen, Yue Zhang, Daniel Harabor, Stephen F. Smith, Jiaoyang Li"
 # excerpt: 'We present SMART, a scalable multi-agent realistic testbed for advancing MAPF research towards real-world applications. This work addresses the gap between theoretical MAPF algorithms and practical deployment challenges.<br/><img src="/images/smart_testbed_preview.png">'
-date: 2025-03-02
-venue: 'Under Review'
-paperurl: 'https://arxiv.org/abs/2503.04798'
-bibtexurl: '/files/smart-testbed-2025.bib'
+date: 2026-06-07
+venue: 'IEEE Robotics and Automation Letters (RA-L)'
+paperurl: 'https://ieeexplore.ieee.org/document/11495177'
+paperlabel: 'IEEE Xplore'
+bibtexurl: '/files/smart-testbed-2026-06-07.bib'
 bibtex: |
-  @misc{yan2025smart,
-    title={Advancing MAPF towards the Real World: A Scalable Multi-Agent Realistic Testbed},
-    author={Yan, Jingtian and Li, Zhifei and Kang, William and Zhang, Yulun and Smith, Stephen and Li, Jiaoyang},
-    year={2025},
-    eprint={2503.04798},
-    archivePrefix={arXiv},
-    primaryClass={cs.RO},
-    note={Under Review}
+  @article{yan2026smart,
+    title={Advancing MAPF Toward the Real World: A Scalable Multi-Agent Realistic Testbed (SMART)},
+    author={Yan, Jingtian and Li, Zhifei and Kang, William and Zheng, Kevin and Zhang, Yulun and Chen, Zhe and Zhang, Yue and Harabor, Daniel and Smith, Stephen F. and Li, Jiaoyang},
+    journal={IEEE Robotics and Automation Letters},
+    volume={11},
+    number={6},
+    pages={7428--7435},
+    year={2026},
+    month={June},
+    doi={10.1109/LRA.2026.3688062}
   }
 codeurl: 'https://github.com/smart-mapf/smart.git'
 videourl: 'https://youtu.be/TX-oGSgM8VQ'
-citation: 'Jingtian Yan, Zhifei Li, William Kang, Kevin Zheng, Yulun Zhang, Zhe Chen, Yue Zhang, Daniel Harabor, Stephen F. Smith, and Jiaoyang Li. <i>Under Review</i>. 2025.'
+citation: 'Jingtian Yan, Zhifei Li, William Kang, Kevin Zheng, Yulun Zhang, Zhe Chen, Yue Zhang, Daniel Harabor, Stephen F. Smith, and Jiaoyang Li. <i>IEEE Robotics and Automation Letters</i>. 11(6), 7428-7435, 2026.<br />ICAPS 2025 Best Demo Award; will present at IROS 2026.'
 header:
   teaser: /images/smart_testbed_preview.png
 ---
 
-**Note:** Manuscript is currently under review.
+
+**Highlights:** ICAPS 2025 Best Demo Award; will present at IROS 2026.
 
 ### [Use Our Online Interface](https://smart-mapf.github.io/demo/)
 
@@ -78,20 +84,24 @@ SMART provides a scalable and realistic testing environment that incorporates re
 </div>
 
 **Links:**
-- [Paper (arXiv)](https://arxiv.org/abs/2503.04798)
-- [Code](https://github.com/JingtianYan/SMART/)
+- [Paper (IEEE Xplore)](https://ieeexplore.ieee.org/document/11495177)
+- [Preprint (arXiv)](https://arxiv.org/abs/2503.04798)
+- [Project Page](/portfolio/smart-testbed/)
+- [Code](https://github.com/smart-mapf/smart)
 - [MovingAI MAPF Benchmarks](https://movingai.com/benchmarks/mapf/index.html)
 
 ## BibTeX
 
 ```bibtex
-@misc{yan2025smart,
-  title={Advancing MAPF towards the Real World: A Scalable Multi-Agent Realistic Testbed},
-  author={Yan, Jingtian and Li, Zhifei and Kang, William and Zhang, Yulun and Smith, Stephen and Li, Jiaoyang},
-  year={2025},
-  eprint={2503.04798},
-  archivePrefix={arXiv},
-  primaryClass={cs.RO},
-  note={Under Review}
+@article{yan2026smart,
+  title={Advancing MAPF Toward the Real World: A Scalable Multi-Agent Realistic Testbed (SMART)},
+  author={Yan, Jingtian and Li, Zhifei and Kang, William and Zheng, Kevin and Zhang, Yulun and Chen, Zhe and Zhang, Yue and Harabor, Daniel and Smith, Stephen F. and Li, Jiaoyang},
+  journal={IEEE Robotics and Automation Letters},
+  volume={11},
+  number={6},
+  pages={7428--7435},
+  year={2026},
+  month={June},
+  doi={10.1109/LRA.2026.3688062}
 }
 ```

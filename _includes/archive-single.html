@@ -59,8 +59,9 @@
     
     {% if post.citation and post.paperurl %}
       {% assign highlighted_citation = post.citation | replace: "Jingtian Yan", "<strong>Jingtian Yan</strong>" %}
+      {% assign paper_label = post.paperlabel | default: "arXiv" %}
       <p>{{ highlighted_citation }}<br />
-      <a href="{{ post.paperurl }}">arXiv</a>
+      <a href="{{ post.paperurl }}">{{ paper_label }}</a>
       {% if post.codeurl %} | <a href="{{ post.codeurl }}">Code</a>{% endif %}
       {% if post.videourl %} | <a href="{{ post.videourl }}">Video</a>{% endif %}
       {% if post.slidesurl %} | <a href="{{ post.slidesurl }}">Slides</a>{% endif %}
@@ -76,7 +77,8 @@
       {% if post.bibtex %}{% if post.codeurl or post.videourl or post.slidesurl %} | {% endif %}<a href="javascript:void(0);" onclick="var div = this.parentNode.parentNode.querySelector('.bibtex-container'); if(div.style.display === 'none' || div.style.display === '') { div.style.display = 'block'; this.textContent = 'Hide BibTeX'; } else { div.style.display = 'none'; this.textContent = 'BibTeX'; }">BibTeX</a>{% endif %}
       </p>
     {% elsif post.paperurl %}
-      <p><a href=" {{ post.paperurl }} ">arXiv</a>
+      {% assign paper_label = post.paperlabel | default: "arXiv" %}
+      <p><a href=" {{ post.paperurl }} ">{{ paper_label }}</a>
       {% if post.codeurl %} | <a href="{{ post.codeurl }}">Code</a>{% endif %}
       {% if post.videourl %} | <a href="{{ post.videourl }}">Video</a>{% endif %}
       {% if post.slidesurl %} | <a href="{{ post.slidesurl }}">Slides</a>{% endif %}
