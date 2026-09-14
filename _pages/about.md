@@ -11,7 +11,7 @@ I am a Ph.D. student in the Robotics Institute at [Carnegie Mellon University](h
 
 Previously, I completed my MSc in Electrical and Computer Engineering at Carnegie Mellon University, co-advised by Prof. [Ji Zhang](https://frc.ri.cmu.edu/~zhangji/) and Prof. [Sebastian Scherer](https://www.ri.cmu.edu/ri-faculty/sebastian-scherer/). I received my bachelor's degree in Automation from Zhejiang University.
 
-[Download my CV here](../files/JingtianYan_CV.pdf)
+[Download my CV here](../files/Jingtian_CV.pdf)
 
 Research Interests
 ======
